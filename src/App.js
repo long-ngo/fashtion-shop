@@ -1,7 +1,8 @@
+import Home from './views/Home';
 function App() {
   return (
-    <div className="capitalize ">
-      <p className="text-4xl">fashtion shop</p>
+    <div className="bg-white text-black font-sans text-base">
+      <Home />
     </div>
   );
 }
