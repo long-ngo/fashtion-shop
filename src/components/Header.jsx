@@ -1,8 +1,11 @@
+import { useContext } from 'react';
 import { FaSistrix } from 'react-icons/fa';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { useState } from 'react';
 import { useSpring, animated } from 'react-spring';
 import Navigation from '../components/Navigation';
+
+import { LanguageContext } from '../context/LanguageContext';
 
 function Header() {
   const [isNav, setNav] = useState(false);
@@ -17,18 +20,20 @@ function Header() {
     translateY: isNav ? -7 : 0,
     rotate: isNav ? -45 : 0,
   });
+
+  const { lang } = useContext(LanguageContext);
+  const text = lang.header;
   return (
     <div>
       <div className="flex justify-between items-center px-4 h-16">
         <div>
           <p className="text-2xl uppercase">
-            <span className="font-bold">COZA</span> STORE
+            <span className="font-bold">{text.title}</span>
           </p>
         </div>
         <div className="flex justify-center items-center gap-x-4">
           <FaSistrix size={28} />
           <AiOutlineShoppingCart size={28} />
-
           <div
             className="h-4 flex flex-col justify-between"
             onClick={() => setNav(!isNav)}

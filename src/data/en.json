@@ -1,0 +1,32 @@
+{
+  "header": {
+    "title": "COZA STORE"
+  },
+  "navigation" : {
+    "home": "Home",
+    "home1": "Home 1",
+    "home2": "Home 2",
+    "home3": "Home 3",
+    "shop":"Shop",
+    "features":"Features",
+    "blog":"Blog",
+    "about":"About",
+    "contact":"Contact"
+  },
+  "footer": {
+    "categories": "Categories",
+    "wonmen": "Wonmen",
+    "men": "Men",
+    "shoes": "Shoes",
+    "watches": "Watches",
+    "help": "help",
+    "order":"Track Order",
+    "returns": "Returns",
+    "shipping": "Shipping",
+    "faq": "FAQs",
+    "touch": "get in touch",
+    "address": "Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879",
+    "newsletter": "newsletter",
+    "email": "email@example.com"
+  }
+}
