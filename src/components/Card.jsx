@@ -1,7 +1,7 @@
 function Card({ src, name, price }) {
   return (
-    <div className="">
-      <div className="">
+    <div>
+      <div>
         <img
           className="w-full h-full object-cover object-center"
           src={src}
@@ -10,7 +10,9 @@ function Card({ src, name, price }) {
       </div>
       <div className="h-[10%]">
         <div className="mt-2">
-          <a className="text-[#999] text-sm">{name}</a>
+          <a className="text-[#999] text-sm" href="/#">
+            {name}
+          </a>
         </div>
         <p className="text-[#666] text-sm mt-1">${price}</p>
       </div>

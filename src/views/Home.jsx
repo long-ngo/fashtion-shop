@@ -2,6 +2,7 @@ import Header from '../components/Header';
 import Slider from '../components/Slider';
 import Banner from '../components/Banner';
 import Card from '../components/Card';
+import NavShop from '../components/NavShop';
 import Footer from '../components/Footer';
 import { banners } from '../data/banners';
 import { products } from '../data/products';
@@ -27,7 +28,8 @@ function Home() {
         <h3 className="text-[#222] text-3xl font-bold uppercase my-4">
           product overview
         </h3>
-        <div className="flex flex-col gap-y-4">
+        <NavShop />
+        <div className="flex flex-col gap-y-4 mt-10">
           {products.map((item) => (
             <Card
               key={item.id}

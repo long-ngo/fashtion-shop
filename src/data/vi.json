@@ -1,8 +1,37 @@
 {
   "header": {
-    "title": "Tiêu đề"
+    "title": "COZA STORE"
   },
-  "navigation": {
-    "":""
+  "navigation" : {
+    "home": "Trang Chính",
+    "home1": "Trang chính 1",
+    "home2": "Trang chính 2",
+    "home3": "Trang chính 3",
+    "shop":"Cửa hàng",
+    "features":"Tính năng",
+    "blog":"Nhật ký",
+    "about":"Về chúng tôi",
+    "contact":"Liên hệ"
+  },
+  "topbar": {
+    "title": "Giao hàng miễn phí cho đơn đặt hàng tiêu chuẩn trên $ 100",
+    "help": "Giúp đỡ & FAQS",
+    "account": "Tài khoản của tôi"
+  },
+  "footer": {
+    "categories": "Danh mục",
+    "wonmen": "Nữ",
+    "men": "Nam",
+    "shoes": "Giày",
+    "watches": "Đồng hồ",
+    "help": "Hỗ trợ",
+    "order":"Đặt hàng",
+    "returns": "Trả hàng",
+    "shipping": "Mua sắm",
+    "faq": "FAQs",
+    "touch": "Liên lạc",
+    "address": "Bất cứ câu hỏi nào? Hãy liên hệ chúng tối tại tần 8, 379 Hòa Bình, HCM hoặc gọi cho chúng tôi vào số (+1) 96 716 6879",
+    "newsletter": "Thư điện tử",
+    "email": "email@example.com"
   }
 }

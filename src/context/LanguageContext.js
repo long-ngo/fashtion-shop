@@ -11,8 +11,18 @@ const LanguageContext = createContext();
 
 function LanguageProvider({ children }) {
   const [lang, setLang] = useState('en');
-  const changeLanguage = () => {
-    setLang(lang === 'en' ? 'vi' : 'en');
+  const changeLanguage = (la) => {
+    switch (la) {
+      case 'en':
+        setLang('en');
+        break;
+      case 'vi':
+        setLang('vi');
+        break;
+      default:
+        setLang('en');
+        break;
+    }
   };
   const value = {
     lang: langs[lang],

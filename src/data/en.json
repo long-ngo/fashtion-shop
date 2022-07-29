@@ -1,6 +1,6 @@
 {
   "header": {
-    "title": "COZA STORE"
+    "title": "fashtion shop"
   },
   "navigation" : {
     "home": "Home",
@@ -12,6 +12,11 @@
     "blog":"Blog",
     "about":"About",
     "contact":"Contact"
+  },
+  "topbar": {
+    "title": "Free shipping for standard order over $100",
+    "help": "Help & FAQS",
+    "account": "My account"
   },
   "footer": {
     "categories": "Categories",
